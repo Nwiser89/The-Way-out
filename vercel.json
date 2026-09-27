@@ -1,0 +1,10 @@
+   {
+     "cleanUrls": true,
+     "rewrites": [
+       {
+         "source": "/",
+         "has": [{ "type": "host", "value": "admin.thewayoutsa.com" }],
+         "destination": "/admin.html"
+       }
+     ]
+   }
